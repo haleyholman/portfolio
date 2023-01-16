@@ -57,7 +57,7 @@ img {
 }
 
 .hero-text {
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 0px;
     margin-right: 150px;
     margin-bottom: 100px;
@@ -239,7 +239,7 @@ a {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: 0px;
     align-items: center;
 }
