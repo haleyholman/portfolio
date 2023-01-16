@@ -236,12 +236,12 @@ a {
 }
 
 .project-container {
-    display: center;
-    justify-content: right;
+    display: flex;
+    justify-content: center;
     width: 100%;
     margin-left: 50px;
     margin-top: 50px;
-    align-items: right;
+    align-items: center;
 }
 
 .projects {
