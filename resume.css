@@ -59,7 +59,7 @@ img {
 .hero-text {
     margin-top: 50px;
     margin-left: 0px;
-    margin-right: 150px;
+    margin-right: 25px;
     margin-bottom: 100px;
     display: grid;
     text-align: left;
@@ -240,7 +240,7 @@ a {
     justify-content: center;
     width: 100%;
     margin-left: 50px;
-    margin-top: 0px;
+    margin-top: 50px;
     align-items: center;
 }
 
