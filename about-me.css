@@ -165,6 +165,25 @@ u {
     margin-left: 40px;
 }
 
+.project-card {
+    width: 300px;
+    height: 80px;
+    border: 1px solid #524f4a;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    display: center;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 0px;
+    align-items: center;
+}
+
 /* Buttons mostly */
 
 .button {
