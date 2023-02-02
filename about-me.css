@@ -1,6 +1,5 @@
 body {
-    font-family: 'Archivo Narrow', sans-serif;
-    font-family: 'Tenor Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 section {
@@ -101,14 +100,14 @@ h1 {
     font-weight: 400;
     font-style: none;
     color: #75752f;
-    font-family: 'Tenor Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h2 {
     font-size: 30px;
     font-style: none;
     color: #75752f;
-    font-family: 'Tenor Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     margin: 30px;
     padding-right: 50px;
@@ -116,7 +115,7 @@ h2 {
 
 h3 {
     font-size: 35px;
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: #444444;
 }
@@ -125,7 +124,7 @@ h4 {
     font-size: 20px;
     font-style: none;
     color: #444444;
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     margin: 30px;
     padding-right: 50px;
@@ -135,14 +134,14 @@ p {
   background-color: #fefefe;
   height: flex;
   color: #524f4a;
-  font-size: 15px;
+  font-size: 19px;
   align-items: left;
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 small {
   margin: 0px;
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 9px;
   color: #c09984;
   align-items: right;
@@ -193,7 +192,7 @@ u {
     background-color: #75752f;
     color: #ffffff;
     text-align: center;
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 13px;
     padding: 10px;
