@@ -6,6 +6,7 @@ body {
 section {
     background-color: #fefefe;
     padding: 3rem 0;
+    line-height: 20px;
 }
 
 img {
@@ -119,6 +120,7 @@ h3 {
     font-family: 'Archivo Narrow', sans-serif;
     font-weight: 300;
     color: #444444;
+    line-height: 40px;
 }
 
 h4 {
@@ -352,6 +354,7 @@ a {
 #projects .item .right .project-sub-title {
 	font-size: 20px;
 	margin-bottom: 2rem;
+  line-height: 30px;
 }
 
 #projects .item .right .project-desc {
@@ -361,7 +364,7 @@ a {
   font-weight: 400;
   text-transform: uppercase;
 	margin-bottom: 2rem;
-    text-align: right;
+  text-align: right;
 }
 
 #projects .item .right .external-link {
