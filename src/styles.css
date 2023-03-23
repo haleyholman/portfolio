@@ -1,6 +1,5 @@
 body {
-    font-family: 'Archivo Narrow', sans-serif;
-    font-family: 'Tenor Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 section {
@@ -73,9 +72,10 @@ img {
 footer {
     height: flex;
     background-color: #fefefe;
-    color: #524f4a;
+    color: #505020;
     text-align: center;
     padding-bottom: 10px;
+    font-size: 13px;
 }
 
 nav {
@@ -145,8 +145,8 @@ p {
 small {
   margin: 0px;
   font-family: 'Archivo Narrow', sans-serif;
-  font-size: 11px;
-  color: #c09984;
+  font-size: 15px;
+  color: #505020;
   align-items: right;
   font-weight: 400;
   text-transform: uppercase;
@@ -358,10 +358,10 @@ a {
 }
 
 #projects .item .right .project-desc {
-	color: #c09984;
+	color: #505020;
   font-size: 11px;
-  font-family: 'Archivo Narrow', sans-serif;
-  font-weight: 400;
+  font-family: 'Poppins';
+  font-weight: 500;
   text-transform: uppercase;
 	margin-bottom: 2rem;
   text-align: right;
