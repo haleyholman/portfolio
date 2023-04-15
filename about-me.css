@@ -4,7 +4,22 @@ body {
 
 section {
     background-color: #fefefe;
-    padding: 3rem 0;
+    padding: 3rem;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 img {
@@ -53,6 +68,7 @@ img {
     color: #524f4a;
     font-size: 14px;
     align-items: left;
+    padding: 3rem 0;
 }
 
 .hero-text {
@@ -104,13 +120,11 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-style: none;
     color: #75752f;
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    margin: 30px;
-    padding-right: 50px;
+    font-weight: 400;
 }
 
 h3 {
@@ -142,8 +156,8 @@ p {
 small {
   margin: 0px;
   font-family: 'Poppins', sans-serif;
-  font-size: 9px;
-  color: #c09984;
+  font-size: 10px;
+  color: #505020;
   align-items: right;
   font-weight: 400;
   text-transform: uppercase;
@@ -162,6 +176,7 @@ u {
 
 .hero-text {
     margin-left: 40px;
+    font-size: 19px;
 }
 
 .project-card {
