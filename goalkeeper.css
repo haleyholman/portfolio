@@ -1,14 +1,33 @@
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 section {
     background-color: #fefefe;
     padding: 6rem 0;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 30px;
     line-height: 30px;
     font-size: 17px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.column {
+  float: left;
+  width: 38%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 img {
@@ -60,16 +79,17 @@ img {
 }
 
 .hero-text {
-    margin-top: 70px;
+    margin-top: 0px;
     margin-left: 0px;
-    margin-right: 150px;
-    margin-bottom: 100px;
-    font-size: 30px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    font-size: 17px;
     display: grid;
     text-align: left;
     align-items: left;
     padding: 0px;
     justify-content: left;
+    color: #000000;
 }
 
 footer {
@@ -104,32 +124,34 @@ h1 {
     font-weight: 400;
     font-style: none;
     color: #75752f;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 h2 {
     font-size: 35px;
     font-style: none;
-    color: #8948bd;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    margin: 30px;
-    padding-right: 50px;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 h3 {
-    font-size: 35px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    color: #444444;
-    line-height: 50px;
+  font-size: 20px;
+  font-style: none;
+  color: #000000;
+  background-color: #b87ee867;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding: 15px;
 }
 
 h4 {
     font-size: 20px;
     font-style: none;
     color: #444444;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     margin: 30px;
     padding-right: 50px;
@@ -144,9 +166,16 @@ p {
   font-family: 'Poppins', sans-serif;
 }
 
+mark {
+  background-color: #a96fd94b;
+  color: black;
+  padding: 5px;
+}
+
+
 small {
   margin: 0px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 11px;
   color: #c09984;
   align-items: right;
@@ -155,15 +184,15 @@ small {
 }
 
 big {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 23px;
     color: #aa6fd9;
 }
 
 b {
-    color: #8948bd;
+    color: #000000;
     text-transform: bold;
-    font-weight: 500;
+    font-weight: 900;
 }
 
 u {
@@ -176,6 +205,73 @@ u {
     margin-left: 40px;
 }
 
+
+p.bubble {
+	position: relative;
+	width: 500px;
+	text-align: center;
+	line-height: 1.4em;
+	margin: 40px auto;
+	background-color: #fff;
+	border: 5px solid #aa6fd9;
+	border-radius: 30px;
+	font-family: sans-serif;
+	padding: 20px;
+	font-size: large;
+}
+
+p.thought {
+	width: 300px;
+	border-radius: 200px;
+	padding: 30px;	
+}
+
+p.bubble:before,
+p.bubble:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+
+p.speech:before {
+	left: 30px;
+	bottom: -50px;
+	border: 25px solid;
+	border-color: #aa6fd9 transparent transparent #aa6fd9;
+}
+
+p.speech:after {
+	left: 38px;
+	bottom: -30px;
+	border: 15px solid;
+	border-color: #fff transparent transparent #fff;
+}
+
+p.thought:before,
+p.thought:after {
+	left: 10px;
+	bottom: -30px;
+	width: 40px;
+	height: 40px;
+	background-color: #fff;
+	border: 6px solid #aa6fd9;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	border-radius: 28px;
+}
+
+p.thought:after {
+	width: 20px;
+	height: 20px;
+	left: 5px;
+	bottom: -40px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+}
+
+
 /* Buttons mostly */
 
 .button {
@@ -185,7 +281,7 @@ u {
     background-color: #aa6fd9;
     color: #ffffff;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 600;
     font-size: 13px;
     padding: 10px;
@@ -260,9 +356,9 @@ a {
 
 .project-container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     width: 100%;
-    margin-left: 100px;
+    margin-left: 0px;
     margin-top: 0px;
     align-items: center;
 }
@@ -270,7 +366,7 @@ a {
 .projects {
     margin: 0;
     padding: 10rem;
-    font-family: "Poppins", sans-serif, system-ui, -apple-system;
+    font-family: "Lato", sans-serif, system-ui, -apple-system;
     font-size: 70px;
     background: transparent;
     color: #fefefe;
@@ -354,7 +450,7 @@ a {
 
 #projects .item .right .project-title {
 	font-size: 30px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: bold;
     font-weight: 500;
 	margin-bottom: 1rem;
@@ -368,7 +464,7 @@ a {
 #projects .item .right .project-desc {
 	color: #c09984;
   font-size: 11px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
 	margin-bottom: 2rem;
@@ -427,7 +523,7 @@ nav {
     min-height: 8vh;
     background-color: #fefefe;
     color: #444444;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     position: fixed;
     top: 0;
     width: 100%;
